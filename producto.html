@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Saludo</title>
+</head>
+<body>
+  <script>
+	const MSG_PREG_NUM1 = "Dime un número"
+	const MSG_PREG_NUM2 = "Dime otro número"
+    let num1;
+    let num2;
+	let producto;
+	
+    //Leo el nombre introducido por el usuario
+    num1 = prompt(MSG_PREG_NUM1);
+   num2 = prompt(MSG_PREG_NUM2);
+   
+   //Multiplico los dos números y lo meto en el producto
+   producto = num1 * num2;
+   
+    //Escribir "El resultado de multiplicar num1 por num2 es producto"
+    document.write("<h1>Ejercicio de multiplicación</h1>");
+	document.write("<h2>Creado por Bea</h2>");
+	document.write("<h3>Lo he hecho hoy<h3>");
+	//document.write(producto)
+	document.write(`El resultado de multiplicar ${num1} * ${num2} es ${producto}`);
+	document.write("<hr/>");
+
+
+  </script>
+</body>
+</html>

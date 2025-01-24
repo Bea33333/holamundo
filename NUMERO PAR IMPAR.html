@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio if else</title>
+</head>
+<body>
+  <script>
+    //Constantes
+    const MSG = "Pon un número";
+    const MSG_NO = "El número no es múltiplo de 7"
+    const MSG_MULT = "El número es múltiplo de 7"
+    const MULTIPLO = 7
+
+    //Variables
+
+    let numero = prompt(MSG);
+
+    if (numero % MULTIPLO == 0) {
+      document.write(MSG_MULT)
+    }else{
+      document.write(MSG_NO)
+    }
+
+  </script>
+</body>
+</html>
